@@ -23,6 +23,15 @@ An elegant notes taking app written in Flutter that uses sqflite for storage.
 
 
 ## Screenshots
+![Screenshot_2021-01-09-22-36-51-290_com miui home 1](https://user-images.githubusercontent.com/73903186/104104802-299ea180-52cc-11eb-8011-3b1d1153085f.jpg)
+![Screenshot_2021-01-09-22-37-05-088_com example notes 1](https://user-images.githubusercontent.com/73903186/104104804-2e635580-52cc-11eb-9bf4-059bab874025.jpg)
+![Screenshot_2021-01-09-22-37-09-373_com example notes 1](https://user-images.githubusercontent.com/73903186/104104816-3c18db00-52cc-11eb-9146-d212333eea7e.jpg)
+![Screenshot_2021-01-09-22-37-15-064_com example notes 1](https://user-images.githubusercontent.com/73903186/104104817-3cb17180-52cc-11eb-9a4f-e1f79efb410f.jpg)
+![Screenshot_2021-01-09-22-37-19-015_android 1](https://user-images.githubusercontent.com/73903186/104104821-4044f880-52cc-11eb-9c28-0bde8cbc6b53.jpg)
+![Screenshot_2021-01-09-22-37-28-446_com example notes 1](https://user-images.githubusercontent.com/73903186/104104825-48049d00-52cc-11eb-911f-1793dd181f76.jpg)
+![Screenshot_2021-01-09-22-37-38-445_com example notes 1](https://user-images.githubusercontent.com/73903186/104104832-4e931480-52cc-11eb-8889-01545051dff9.jpg)
+![Screenshot_2021-01-09-22-37-38-445_com example notes 1](https://user-images.githubusercontent.com/73903186/104104845-5b176d00-52cc-11eb-805c-afbad7164a98.jpg)
+![Screenshot_2021-01-09-22-37-42-292_com example notes 1](https://user-images.githubusercontent.com/73903186/104104850-5f438a80-52cc-11eb-8e6a-9e58524fe1d4.jpg)
 
 
 
