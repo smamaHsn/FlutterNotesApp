@@ -3,12 +3,15 @@
 An elegant notes taking app written in Flutter that uses sqflite for storage.
 
 ## Features
-1. *Animated UI*: A beautiful, minimalist user interface with subtle animations.
-2. *Dark mode*: Light and dark theme variants.
-3. *Mark notes as important*: Mark notes as important and filter them.
-4. *Search*: Search your notes.
-5. *Edit note*: Edit note that you saved previously
-6. *Share*: Share note using any app that can share text.
+1: Icon :5mark
+2: Splash screen
+3: Create Notes 
+5: Update Notes 
+6: Delete Notes 
+7: Share Notes using WhatsApp , as text etc
+8: Filter Note
+9: Mark done or Not Done in a List
+10: Attractive UI
 
 ## Dependencies
 - outline_material_icons: ^0.1.0
@@ -18,15 +21,8 @@ An elegant notes taking app written in Flutter that uses sqflite for storage.
 - shared_preferences: ^0.5.3+1
 - share: ^0.6.1+1
 
-## Run the project
-- With Flutter installed, clone project and run `flutter run --release` in that directory, 
-or
-- Download the built APK from [here](https://github.com/roshanrahman/flutter-notes-app/raw/master/github_assets/draft.apk)
 
 ## Screenshots
-<img src="github_assets/edit.gif" height="800">
-<img src="github_assets/dark.gif" height="800">
 
-Feedback is welcome! Contact me for any info.
 
 
