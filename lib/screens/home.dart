@@ -199,7 +199,7 @@ class _MyHomePageState extends State<MyHomePage> {
           margin: EdgeInsets.only(top: 8, bottom: 32, left: 10),
           width: headerShouldHide ? 0 : 200,
           child: Text(
-            'Your Notes',
+            'My Notes',
             style: TextStyle(
                 fontFamily: 'ZillaSlab',
                 fontWeight: FontWeight.w700,
