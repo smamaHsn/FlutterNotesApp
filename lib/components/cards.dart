@@ -29,13 +29,13 @@ class NoteCardComponent extends StatelessWidget {
     Color color = colorList.elementAt(noteData.title.length % colorList.length);
     return Container(
         margin: EdgeInsets.fromLTRB(10, 8, 10, 8),
-        height: 110,
+        height: 150,
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(16),
           boxShadow: [buildBoxShadow(color, context)],
         ),
         child: Material(
-          borderRadius: BorderRadius.circular(16),
+          borderRadius: BorderRadius.circular(30),
           clipBehavior: Clip.antiAlias,
           color: Theme.of(context).dialogBackgroundColor,
           child: InkWell(
@@ -123,7 +123,7 @@ class AddNoteCardComponent extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
         margin: EdgeInsets.fromLTRB(10, 8, 10, 8),
-        height: 110,
+        height: 150,
         decoration: BoxDecoration(
           border: Border.all(color: Theme.of(context).primaryColor, width: 2),
           borderRadius: BorderRadius.circular(16),

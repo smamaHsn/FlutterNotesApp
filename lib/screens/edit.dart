@@ -79,7 +79,7 @@ class _EditNotePageState extends State<EditNotePage> {
                     fontSize: 32,
                     fontWeight: FontWeight.w700),
                 decoration: InputDecoration.collapsed(
-                  hintText: 'Enter a title',
+                  hintText: 'Enter title',
                   hintStyle: TextStyle(
                       color: Colors.grey.shade400,
                       fontSize: 32,
@@ -101,7 +101,7 @@ class _EditNotePageState extends State<EditNotePage> {
                 },
                 style: TextStyle(fontSize: 18, fontWeight: FontWeight.w500),
                 decoration: InputDecoration.collapsed(
-                  hintText: 'Start typing...',
+                  hintText: 'Type Here',
                   hintStyle: TextStyle(
                       color: Colors.grey.shade400,
                       fontSize: 18,
@@ -230,7 +230,7 @@ class _EditNotePageState extends State<EditNotePage> {
                 FlatButton(
                   child: Text('DELETE',
                       style: prefix0.TextStyle(
-                          color: Colors.red.shade300,
+                          color: Colors.red,
                           fontWeight: FontWeight.w500,
                           letterSpacing: 1)),
                   onPressed: () async {

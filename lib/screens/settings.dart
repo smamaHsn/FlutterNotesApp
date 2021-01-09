@@ -54,7 +54,7 @@ class _SettingsPageState extends State<SettingsPage> {
               buildCardWidget(Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: <Widget>[
-                  Text('App Theme',
+                  Text('Select Theme',
                       style: TextStyle(fontFamily: 'ZillaSlab', fontSize: 24)),
                   Container(
                     height: 20,
@@ -67,7 +67,7 @@ class _SettingsPageState extends State<SettingsPage> {
                         onChanged: handleThemeSelection,
                       ),
                       Text(
-                        'Light theme',
+                        'Light Theme',
                         style: TextStyle(fontSize: 18),
                       )
                     ],
@@ -80,7 +80,7 @@ class _SettingsPageState extends State<SettingsPage> {
                         onChanged: handleThemeSelection,
                       ),
                       Text(
-                        'Dark theme',
+                        'Dark Theme',
                         style: TextStyle(fontSize: 18),
                       )
                     ],
@@ -101,7 +101,7 @@ class _SettingsPageState extends State<SettingsPage> {
                   Center(
                     child: Text('Developed by'.toUpperCase(),
                         style: TextStyle(
-                            color: Colors.grey.shade600,
+                            color: Colors.black54,
                             fontWeight: FontWeight.w500,
                             letterSpacing: 1)),
                   ),
@@ -131,7 +131,7 @@ class _SettingsPageState extends State<SettingsPage> {
                     height: 30,
                   ),
                   Center(
-                    child: Text('Made With'.toUpperCase(),
+                    child: Text('Made In'.toUpperCase(),
                         style: TextStyle(
                             color: Colors.grey.shade600,
                             fontWeight: FontWeight.w500,

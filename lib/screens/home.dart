@@ -56,7 +56,7 @@ class _MyHomePageState extends State<MyHomePage> {
         onPressed: () {
           gotoEditNote();
         },
-        label: Text('Add note'.toUpperCase()),
+        label: Text('Add New'.toUpperCase()),
         icon: Icon(Icons.add),
       ),
       body: GestureDetector(
@@ -167,7 +167,7 @@ class _MyHomePageState extends State<MyHomePage> {
                           TextStyle(fontSize: 18, fontWeight: FontWeight.w500),
                       textInputAction: TextInputAction.search,
                       decoration: InputDecoration.collapsed(
-                        hintText: 'Search',
+                        hintText: 'Search Here',
                         hintStyle: TextStyle(
                             color: Colors.grey.shade300,
                             fontSize: 18,

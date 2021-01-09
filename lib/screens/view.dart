@@ -175,12 +175,12 @@ class _ViewNotePageState extends State<ViewNotePage> {
             shape:
                 RoundedRectangleBorder(borderRadius: BorderRadius.circular(8)),
             title: Text('Delete Note'),
-            content: Text('This note will be deleted permanently'),
+
             actions: <Widget>[
               FlatButton(
                 child: Text('DELETE',
                     style: TextStyle(
-                        color: Colors.red.shade300,
+                        color: Colors.red,
                         fontWeight: FontWeight.w500,
                         letterSpacing: 1)),
                 onPressed: () async {
@@ -194,7 +194,7 @@ class _ViewNotePageState extends State<ViewNotePage> {
               FlatButton(
                 child: Text('CANCEL',
                     style: TextStyle(
-                        color: Theme.of(context).primaryColor,
+                        color: Colors.green,
                         fontWeight: FontWeight.w500,
                         letterSpacing: 1)),
                 onPressed: () {
